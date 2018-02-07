@@ -1,4 +1,4 @@
-package com.project.prac;
+package com.project.prac.basic.programming.inputOutput;
 
 import java.util.ArrayList;
 import java.util.Arrays;

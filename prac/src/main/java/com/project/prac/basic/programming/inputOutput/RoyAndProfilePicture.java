@@ -1,11 +1,11 @@
-package com.project.prac;
+package com.project.prac.basic.programming.inputOutput;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class TestPractice {
+public class RoyAndProfilePicture {
 
 	static Scanner s = new Scanner(System.in);
 	
