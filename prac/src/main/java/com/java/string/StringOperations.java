@@ -1,5 +1,9 @@
 package com.java.string;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class StringOperations {
 
 	public static void main(String[] args) {
@@ -66,6 +70,18 @@ public class StringOperations {
 		System.out.print("builderString == bufferString  --> ");
 		System.out.println(builderString==bufferString);
 		System.out.println("builderString.equals(bufferString)  --> "+builderString.equals(bufferString));
+		
+		String str1 = "fdsfr";
+		String str2 = "gfagg";
+		
+		System.out.println(Arrays.toString(str1.split("")));
+		List<String> list = new ArrayList<String>(); 
+		list.addAll(Arrays.asList(str1.split("")));	
+		List<String> anotherList = new ArrayList<String>(); 
+		anotherList.addAll(Arrays.asList(str2.split(""))); 
+		list.retainAll(anotherList);
+		System.out.println(Arrays.toString(list.toArray(new String[list.size()]))); 
+		
 		
 	}
 	
