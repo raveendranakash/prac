@@ -1,1 +1,6 @@
-/target/
+/target/*
+../.metadata/*
+../.recommenders/*
+../RemoteSystemsTempFiles/*
+../Servers/*
+
