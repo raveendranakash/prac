@@ -82,7 +82,16 @@ public class StringOperations {
 		list.retainAll(anotherList);
 		System.out.println(Arrays.toString(list.toArray(new String[list.size()]))); 
 		
-		
+		System.out.println("Palidrome check for NITIN : "+isPalindrome("NITIN"));
 	}
+	
+    private static boolean isPalindrome(String str) {
+        if (str == null)
+            return false;
+        StringBuilder strBuilder = new StringBuilder(str);
+        strBuilder.reverse();
+        return strBuilder.toString().equals(str);
+    }
+
 	
 }
