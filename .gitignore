@@ -1,6 +1,12 @@
 /.git/*
 /.metadata/*
 /.recommenders/*
+/.settings/*
+/.classpath/*
+/.classpath
+.classpath
+.project
+.target
+/target/*
 /RemoteSystemsTempFiles/*
 /Servers/*
-
